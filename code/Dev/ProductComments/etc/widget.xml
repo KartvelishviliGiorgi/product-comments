@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+<widget class="Dev\ProductComments\Block\Widget\Products" id="dev_ProductComments_Comments">
+    <label>Product Comments</label>
+    <description/>
+    <parameters>
+        <parameter name="max_products" sort_order="10" visible="true" xsi:type="text">
+            <label>Max Products</label>
+        </parameter>
+    </parameters>
+</widget>
+</widgets>
